@@ -22,10 +22,10 @@ namespace TD_Game
         //level and health data
         public int level = 1, maxXP = 10, currentXP = 0, maxHP = 10, currentHP = 10;
         //archer stats
-        public int baseArchersDamage = 1, baseArchersReload = 5, baseArchersTracking = 10, baseArchersSpeed = 5, baseArchersRange = 100;
+        public double baseArchersDamage = 1, baseArchersReload = 5, baseArchersTracking = 10, baseArchersSpeed = 5, baseArchersRange = 100, placedArchers = 0;
         //wall stats
-        public int baseWallHealth = 25, baseWallHeight = 1, baseWallDamage = 1;
-
+        public double baseWallHealth = 25, baseWallHeight = 1, baseWallDamage = 1, placedWalls = 0;
+        public double[,] archers = new double[50, 8], walls = new double[50, 5];
         private void hardDifficultyButton_Click(object sender, EventArgs e)
         {
             difficultyModifier = 1.5;
@@ -33,7 +33,6 @@ namespace TD_Game
             normalDifficultyButton.Visible = true;
             hardDifficultyButton.Visible = false;
         }
-
         
 
         private void normalDifficultyButton_Click(object sender, EventArgs e)
