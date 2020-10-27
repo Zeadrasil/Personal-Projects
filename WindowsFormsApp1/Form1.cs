@@ -16,7 +16,10 @@ namespace TD_Game
         {
             InitializeComponent();
         }
-
+        public int permits = 1, tomes = 0, cores = 0;
+        public int level = 1, maxXP = 10;
+        public int baseBallistaDamage = 1, baseBallistaReload = 5, baseBallistaTracking = 10, baseBallistaSpeed = 5, baseBallistaRange = 100;
+        public int baseWallHealth = 25, baseWallHeight = 1, baseWallDamage = 1;
         public void disableAll()
         {
             abilitiesButton.Enabled = false;
