@@ -15,10 +15,16 @@ namespace TD_Game
         {
             InitializeComponent();
         }
+        //makes game more difficult
         public double difficultyModifier = 1.0;
+        //resources for all of the different upgrades and towers
         public int permits = 1, tomes = 0, cores = 0;
-        public int level = 1, maxXP = 10;
-        public int baseBallistaDamage = 1, baseBallistaReload = 5, baseBallistaTracking = 10, baseBallistaSpeed = 5, baseBallistaRange = 100;
+        //level and health data
+        public int level = 1, maxXP = 10, currentXP = 0, maxHP = 10, currentHP = 10;
+        //archer stats
+        public int baseArchersDamage = 1, baseArchersReload = 5, baseArchersTracking = 10, baseArchersSpeed = 5, baseArchersRange = 100;
+        //wall stats
+        public int baseWallHealth = 25, baseWallHeight = 1, baseWallDamage = 1;
 
         private void hardDifficultyButton_Click(object sender, EventArgs e)
         {
@@ -46,7 +52,7 @@ namespace TD_Game
             easyDifficultyButton.Visible = false;
         }
 
-        public int baseWallHealth = 25, baseWallHeight = 1, baseWallDamage = 1;
+        
         public void disableAll()
         {
             abilitiesButton.Enabled = false;
@@ -55,6 +61,36 @@ namespace TD_Game
             towersButton.Enabled = false;
             tutorialButton.Enabled = false;
             enemiesButton.Enabled = false;
+            level20Button.Enabled = false;
+            level21Button.Enabled = false;
+            level22Button.Enabled = false;
+            level23Button.Enabled = false;
+            level24Button.Enabled = false;
+            level25Button.Enabled = false;
+            level26Button.Enabled = false;
+            level27Button.Enabled = false;
+            level28Button.Enabled = false;
+            level29Button.Enabled = false;
+            level30Button.Enabled = false;
+            levelOneButton.Enabled = false;
+            levelTwoButton.Enabled = false;
+            levelThreeButton.Enabled = false;
+            levelFourButton.Enabled = false;
+            levelFiveButton.Enabled = false;
+            levelSixButton.Enabled = false;
+            levelSevenButton.Enabled = false;
+            levelEightButton.Enabled = false;
+            levelNineButton.Enabled = false;
+            levelTenButton.Enabled = false;
+            levelElevenButton.Enabled = false;
+            levelTwelveButton.Enabled = false;
+            levelThirteenButton.Enabled = false;
+            levelFourteenButton.Enabled = false;
+            levelFifteenButton.Enabled = false;
+            levelSixteenButton.Enabled = false;
+            levelSeventeenButton.Enabled = false;
+            levelEighteenButton.Enabled = false;
+            levelNineteenButton.Enabled = false;
         }
 
         public void enableAll()
@@ -65,6 +101,36 @@ namespace TD_Game
             towersButton.Enabled = true;
             tutorialButton.Enabled = true;
             enemiesButton.Enabled = true;
+            level20Button.Enabled = true;
+            level21Button.Enabled = true;
+            level22Button.Enabled = true;
+            level23Button.Enabled = true;
+            level24Button.Enabled = true;
+            level25Button.Enabled = true;
+            level26Button.Enabled = true;
+            level27Button.Enabled = true;
+            level28Button.Enabled = true;
+            level29Button.Enabled = true;
+            level30Button.Enabled = true;
+            levelOneButton.Enabled = true;
+            levelTwoButton.Enabled = true;
+            levelThreeButton.Enabled = true;
+            levelFourButton.Enabled = true;
+            levelFiveButton.Enabled = true;
+            levelSixButton.Enabled = true;
+            levelSevenButton.Enabled = true;
+            levelEightButton.Enabled = true;
+            levelNineButton.Enabled = true;
+            levelTenButton.Enabled = true;
+            levelElevenButton.Enabled = true;
+            levelTwelveButton.Enabled = true;
+            levelThirteenButton.Enabled = true;
+            levelFourteenButton.Enabled = true;
+            levelFifteenButton.Enabled = true;
+            levelSixteenButton.Enabled = true;
+            levelSeventeenButton.Enabled = true;
+            levelEighteenButton.Enabled = true;
+            levelNineteenButton.Enabled = true;
         }
 
         private void quitButton_Click(object sender, EventArgs e)
