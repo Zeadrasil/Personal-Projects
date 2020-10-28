@@ -7,11 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-namespace TD_Game
+
+namespace New_TD_Game
 {
-    public partial class towerDefense : Form
+    public partial class tdGame : Form
     {
-        public towerDefense()
+        public tdGame()
         {
             InitializeComponent();
         }
@@ -33,7 +34,7 @@ namespace TD_Game
             normalDifficultyButton.Visible = true;
             hardDifficultyButton.Visible = false;
         }
-        
+
 
         private void normalDifficultyButton_Click(object sender, EventArgs e)
         {
@@ -51,7 +52,7 @@ namespace TD_Game
             easyDifficultyButton.Visible = false;
         }
 
-        
+
         public void disableAll()
         {
             abilitiesButton.Enabled = false;

@@ -1,6 +1,6 @@
-﻿namespace TD_Game
+﻿namespace New_TD_Game
 {
-    partial class towerDefense
+    partial class tdGame
     {
         /// <summary>
         /// Required designer variable.
@@ -122,10 +122,10 @@
             this.mainArea.Controls.Add(this.quitButton);
             this.mainArea.Controls.Add(this.abilitiesButton);
             this.mainArea.Controls.Add(this.towersButton);
-            this.mainArea.Location = new System.Drawing.Point(1, 1);
+            this.mainArea.Location = new System.Drawing.Point(1, 0);
             this.mainArea.Name = "mainArea";
             this.mainArea.Size = new System.Drawing.Size(1263, 681);
-            this.mainArea.TabIndex = 0;
+            this.mainArea.TabIndex = 1;
             // 
             // hardDifficultyButton
             // 
@@ -136,7 +136,6 @@
             this.hardDifficultyButton.TabIndex = 43;
             this.hardDifficultyButton.Text = "Hard";
             this.hardDifficultyButton.UseVisualStyleBackColor = true;
-            this.hardDifficultyButton.Click += new System.EventHandler(this.hardDifficultyButton_Click);
             // 
             // normalDifficultyButton
             // 
@@ -148,7 +147,6 @@
             this.normalDifficultyButton.Text = "Normal";
             this.normalDifficultyButton.UseVisualStyleBackColor = true;
             this.normalDifficultyButton.Visible = false;
-            this.normalDifficultyButton.Click += new System.EventHandler(this.normalDifficultyButton_Click);
             // 
             // easyDifficultyButton
             // 
@@ -159,7 +157,6 @@
             this.easyDifficultyButton.TabIndex = 41;
             this.easyDifficultyButton.Text = "Easy";
             this.easyDifficultyButton.UseVisualStyleBackColor = true;
-            this.easyDifficultyButton.Click += new System.EventHandler(this.easyDifficultyButton_Click);
             // 
             // level27Button
             // 
@@ -170,6 +167,7 @@
             this.level27Button.TabIndex = 40;
             this.level27Button.Text = "Level Twenty-Seven";
             this.level27Button.UseVisualStyleBackColor = true;
+            this.level27Button.Visible = false;
             // 
             // level26Button
             // 
@@ -180,6 +178,7 @@
             this.level26Button.TabIndex = 39;
             this.level26Button.Text = "Level Twenty-Six";
             this.level26Button.UseVisualStyleBackColor = true;
+            this.level26Button.Visible = false;
             // 
             // level30Button
             // 
@@ -190,6 +189,7 @@
             this.level30Button.TabIndex = 38;
             this.level30Button.Text = "Level Thirty";
             this.level30Button.UseVisualStyleBackColor = true;
+            this.level30Button.Visible = false;
             // 
             // level24Button
             // 
@@ -200,6 +200,7 @@
             this.level24Button.TabIndex = 37;
             this.level24Button.Text = "Level Twenty-Four";
             this.level24Button.UseVisualStyleBackColor = true;
+            this.level24Button.Visible = false;
             // 
             // level25Button
             // 
@@ -210,6 +211,7 @@
             this.level25Button.TabIndex = 36;
             this.level25Button.Text = "Level Twenty-Five";
             this.level25Button.UseVisualStyleBackColor = true;
+            this.level25Button.Visible = false;
             // 
             // level23Button
             // 
@@ -220,6 +222,7 @@
             this.level23Button.TabIndex = 35;
             this.level23Button.Text = "Level Twenty-Three";
             this.level23Button.UseVisualStyleBackColor = true;
+            this.level23Button.Visible = false;
             // 
             // level29Button
             // 
@@ -230,6 +233,7 @@
             this.level29Button.TabIndex = 34;
             this.level29Button.Text = "Level Twenty-Nine";
             this.level29Button.UseVisualStyleBackColor = true;
+            this.level29Button.Visible = false;
             // 
             // level22Button
             // 
@@ -240,6 +244,7 @@
             this.level22Button.TabIndex = 33;
             this.level22Button.Text = "Level Twenty-Two";
             this.level22Button.UseVisualStyleBackColor = true;
+            this.level22Button.Visible = false;
             // 
             // level28Button
             // 
@@ -250,6 +255,7 @@
             this.level28Button.TabIndex = 32;
             this.level28Button.Text = "Level Twenty-Eight";
             this.level28Button.UseVisualStyleBackColor = true;
+            this.level28Button.Visible = false;
             // 
             // level21Button
             // 
@@ -260,6 +266,7 @@
             this.level21Button.TabIndex = 31;
             this.level21Button.Text = "Level Twenty-One";
             this.level21Button.UseVisualStyleBackColor = true;
+            this.level21Button.Visible = false;
             // 
             // levelSeventeenButton
             // 
@@ -270,6 +277,7 @@
             this.levelSeventeenButton.TabIndex = 30;
             this.levelSeventeenButton.Text = "Level Seventeen";
             this.levelSeventeenButton.UseVisualStyleBackColor = true;
+            this.levelSeventeenButton.Visible = false;
             // 
             // levelSixteenButton
             // 
@@ -280,6 +288,7 @@
             this.levelSixteenButton.TabIndex = 29;
             this.levelSixteenButton.Text = "Level Sixteen";
             this.levelSixteenButton.UseVisualStyleBackColor = true;
+            this.levelSixteenButton.Visible = false;
             // 
             // level20Button
             // 
@@ -290,6 +299,7 @@
             this.level20Button.TabIndex = 28;
             this.level20Button.Text = "Level Twenty";
             this.level20Button.UseVisualStyleBackColor = true;
+            this.level20Button.Visible = false;
             // 
             // levelFourteenButton
             // 
@@ -300,6 +310,7 @@
             this.levelFourteenButton.TabIndex = 27;
             this.levelFourteenButton.Text = "Level Fourteen";
             this.levelFourteenButton.UseVisualStyleBackColor = true;
+            this.levelFourteenButton.Visible = false;
             // 
             // levelFifteenButton
             // 
@@ -310,6 +321,7 @@
             this.levelFifteenButton.TabIndex = 26;
             this.levelFifteenButton.Text = "Level Fifteen";
             this.levelFifteenButton.UseVisualStyleBackColor = true;
+            this.levelFifteenButton.Visible = false;
             // 
             // levelThirteenButton
             // 
@@ -320,6 +332,7 @@
             this.levelThirteenButton.TabIndex = 25;
             this.levelThirteenButton.Text = "Level Thirteen";
             this.levelThirteenButton.UseVisualStyleBackColor = true;
+            this.levelThirteenButton.Visible = false;
             // 
             // levelNineteenButton
             // 
@@ -330,6 +343,7 @@
             this.levelNineteenButton.TabIndex = 24;
             this.levelNineteenButton.Text = "Level Nineteen";
             this.levelNineteenButton.UseVisualStyleBackColor = true;
+            this.levelNineteenButton.Visible = false;
             // 
             // levelTwelveButton
             // 
@@ -340,6 +354,7 @@
             this.levelTwelveButton.TabIndex = 23;
             this.levelTwelveButton.Text = "Level Twelve";
             this.levelTwelveButton.UseVisualStyleBackColor = true;
+            this.levelTwelveButton.Visible = false;
             // 
             // levelEighteenButton
             // 
@@ -350,6 +365,7 @@
             this.levelEighteenButton.TabIndex = 22;
             this.levelEighteenButton.Text = "Level Eighteen";
             this.levelEighteenButton.UseVisualStyleBackColor = true;
+            this.levelEighteenButton.Visible = false;
             // 
             // levelElevenButton
             // 
@@ -360,6 +376,7 @@
             this.levelElevenButton.TabIndex = 21;
             this.levelElevenButton.Text = "Level Eleven";
             this.levelElevenButton.UseVisualStyleBackColor = true;
+            this.levelElevenButton.Visible = false;
             // 
             // levelSevenButton
             // 
@@ -370,6 +387,7 @@
             this.levelSevenButton.TabIndex = 20;
             this.levelSevenButton.Text = "Level Seven";
             this.levelSevenButton.UseVisualStyleBackColor = true;
+            this.levelSevenButton.Visible = false;
             // 
             // levelSixButton
             // 
@@ -380,6 +398,7 @@
             this.levelSixButton.TabIndex = 19;
             this.levelSixButton.Text = "Level Six";
             this.levelSixButton.UseVisualStyleBackColor = true;
+            this.levelSixButton.Visible = false;
             // 
             // levelTenButton
             // 
@@ -390,6 +409,7 @@
             this.levelTenButton.TabIndex = 18;
             this.levelTenButton.Text = "Level Ten";
             this.levelTenButton.UseVisualStyleBackColor = true;
+            this.levelTenButton.Visible = false;
             // 
             // levelFourButton
             // 
@@ -400,6 +420,7 @@
             this.levelFourButton.TabIndex = 17;
             this.levelFourButton.Text = "Level Four";
             this.levelFourButton.UseVisualStyleBackColor = true;
+            this.levelFourButton.Visible = false;
             // 
             // levelFiveButton
             // 
@@ -410,6 +431,7 @@
             this.levelFiveButton.TabIndex = 16;
             this.levelFiveButton.Text = "Level Five";
             this.levelFiveButton.UseVisualStyleBackColor = true;
+            this.levelFiveButton.Visible = false;
             // 
             // levelThreeButton
             // 
@@ -420,6 +442,7 @@
             this.levelThreeButton.TabIndex = 15;
             this.levelThreeButton.Text = "Level Three";
             this.levelThreeButton.UseVisualStyleBackColor = true;
+            this.levelThreeButton.Visible = false;
             // 
             // levelNineButton
             // 
@@ -430,6 +453,7 @@
             this.levelNineButton.TabIndex = 14;
             this.levelNineButton.Text = "Level Nine";
             this.levelNineButton.UseVisualStyleBackColor = true;
+            this.levelNineButton.Visible = false;
             // 
             // levelTwoButton
             // 
@@ -440,6 +464,7 @@
             this.levelTwoButton.TabIndex = 13;
             this.levelTwoButton.Text = "Level Two";
             this.levelTwoButton.UseVisualStyleBackColor = true;
+            this.levelTwoButton.Visible = false;
             // 
             // levelEightButton
             // 
@@ -450,6 +475,7 @@
             this.levelEightButton.TabIndex = 12;
             this.levelEightButton.Text = "Level Eight";
             this.levelEightButton.UseVisualStyleBackColor = true;
+            this.levelEightButton.Visible = false;
             // 
             // levelOneButton
             // 
@@ -548,7 +574,6 @@
             this.quitButton.TabIndex = 2;
             this.quitButton.Text = "Quit";
             this.quitButton.UseVisualStyleBackColor = true;
-            this.quitButton.Click += new System.EventHandler(this.quitButton_Click);
             // 
             // abilitiesButton
             // 
@@ -570,14 +595,14 @@
             this.towersButton.Text = "Towers";
             this.towersButton.UseVisualStyleBackColor = true;
             // 
-            // towerDefense
+            // tdGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.mainArea);
-            this.Name = "towerDefense";
-            this.Text = "Tower Defense";
+            this.Name = "tdGame";
+            this.Text = "Form1";
             this.mainArea.ResumeLayout(false);
             this.mainArea.PerformLayout();
             this.ResumeLayout(false);
@@ -587,16 +612,6 @@
         #endregion
 
         private System.Windows.Forms.Panel mainArea;
-        private System.Windows.Forms.Button upgradesButton;
-        private System.Windows.Forms.Button quitButton;
-        private System.Windows.Forms.Button abilitiesButton;
-        private System.Windows.Forms.Button towersButton;
-        private System.Windows.Forms.Label coresLabel;
-        private System.Windows.Forms.Label tomesLabel;
-        private System.Windows.Forms.Label tpLabel;
-        private System.Windows.Forms.Button tutorialButton;
-        private System.Windows.Forms.Button enemiesButton;
-        private System.Windows.Forms.ProgressBar xpBar;
         private System.Windows.Forms.Button hardDifficultyButton;
         private System.Windows.Forms.Button normalDifficultyButton;
         private System.Windows.Forms.Button easyDifficultyButton;
@@ -631,6 +646,16 @@
         private System.Windows.Forms.Button levelEightButton;
         private System.Windows.Forms.Button levelOneButton;
         private System.Windows.Forms.Label levelLabel;
+        private System.Windows.Forms.ProgressBar xpBar;
+        private System.Windows.Forms.Button enemiesButton;
+        private System.Windows.Forms.Button tutorialButton;
+        private System.Windows.Forms.Label coresLabel;
+        private System.Windows.Forms.Label tomesLabel;
+        private System.Windows.Forms.Label tpLabel;
+        private System.Windows.Forms.Button upgradesButton;
+        private System.Windows.Forms.Button quitButton;
+        private System.Windows.Forms.Button abilitiesButton;
+        private System.Windows.Forms.Button towersButton;
     }
 }
 

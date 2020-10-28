@@ -1,5 +1,0 @@
-H:\My Documents\GitHub\Personal-Projects\TD Game\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
-H:\My Documents\GitHub\Personal-Projects\TD Game\obj\Debug\TD_Game.towerDefense.resources
-H:\My Documents\GitHub\Personal-Projects\TD Game\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
-H:\My Documents\GitHub\Personal-Projects\TD Game\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
-H:\My Documents\GitHub\Personal-Projects\TD Game\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache

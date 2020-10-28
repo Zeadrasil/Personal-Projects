@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TD_Game.Properties
+namespace New_TD_Game.Properties
 {
 
 
