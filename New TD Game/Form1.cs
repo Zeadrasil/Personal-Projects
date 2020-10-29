@@ -24,6 +24,25 @@ namespace New_TD_Game
         public int level = 1, maxXP = 10, currentXP = 0, maxHP = 10, currentHP = 10;
         //archer stats
         public double baseArchersDamage = 1, baseArchersReload = 5, baseArchersTracking = 10, baseArchersSpeed = 5, baseArchersRange = 100, placedArchers = 0;
+
+        private void loadButton_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.ShowDialog();
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+
+            }
+        }
+
+        private void createButton_Click(object sender, EventArgs e)
+        {
+            saveFileDialog1.ShowDialog();
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+
+            }
+        }
+
         //wall stats
         public double baseWallHealth = 25, baseWallHeight = 1, baseWallDamage = 1, placedWalls = 0;
         public double[,] archers = new double[50, 8], walls = new double[50, 5];

@@ -73,11 +73,17 @@
             this.quitButton = new System.Windows.Forms.Button();
             this.abilitiesButton = new System.Windows.Forms.Button();
             this.towersButton = new System.Windows.Forms.Button();
+            this.loadButton = new System.Windows.Forms.Button();
+            this.createButton = new System.Windows.Forms.Button();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.mainArea.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainArea
             // 
+            this.mainArea.Controls.Add(this.createButton);
+            this.mainArea.Controls.Add(this.loadButton);
             this.mainArea.Controls.Add(this.hardDifficultyButton);
             this.mainArea.Controls.Add(this.normalDifficultyButton);
             this.mainArea.Controls.Add(this.easyDifficultyButton);
@@ -130,7 +136,7 @@
             // hardDifficultyButton
             // 
             this.hardDifficultyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hardDifficultyButton.Location = new System.Drawing.Point(960, 606);
+            this.hardDifficultyButton.Location = new System.Drawing.Point(635, 606);
             this.hardDifficultyButton.Name = "hardDifficultyButton";
             this.hardDifficultyButton.Size = new System.Drawing.Size(138, 62);
             this.hardDifficultyButton.TabIndex = 43;
@@ -140,7 +146,7 @@
             // normalDifficultyButton
             // 
             this.normalDifficultyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.normalDifficultyButton.Location = new System.Drawing.Point(623, 606);
+            this.normalDifficultyButton.Location = new System.Drawing.Point(412, 606);
             this.normalDifficultyButton.Name = "normalDifficultyButton";
             this.normalDifficultyButton.Size = new System.Drawing.Size(138, 62);
             this.normalDifficultyButton.TabIndex = 42;
@@ -151,7 +157,7 @@
             // easyDifficultyButton
             // 
             this.easyDifficultyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.easyDifficultyButton.Location = new System.Drawing.Point(306, 606);
+            this.easyDifficultyButton.Location = new System.Drawing.Point(189, 606);
             this.easyDifficultyButton.Name = "easyDifficultyButton";
             this.easyDifficultyButton.Size = new System.Drawing.Size(138, 62);
             this.easyDifficultyButton.TabIndex = 41;
@@ -595,6 +601,32 @@
             this.towersButton.Text = "Towers";
             this.towersButton.UseVisualStyleBackColor = true;
             // 
+            // loadButton
+            // 
+            this.loadButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loadButton.Location = new System.Drawing.Point(1113, 606);
+            this.loadButton.Name = "loadButton";
+            this.loadButton.Size = new System.Drawing.Size(138, 62);
+            this.loadButton.TabIndex = 44;
+            this.loadButton.Text = "Load Save";
+            this.loadButton.UseVisualStyleBackColor = true;
+            this.loadButton.Click += new System.EventHandler(this.loadButton_Click);
+            // 
+            // createButton
+            // 
+            this.createButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.createButton.Location = new System.Drawing.Point(969, 606);
+            this.createButton.Name = "createButton";
+            this.createButton.Size = new System.Drawing.Size(138, 62);
+            this.createButton.TabIndex = 45;
+            this.createButton.Text = "Create Save";
+            this.createButton.UseVisualStyleBackColor = true;
+            this.createButton.Click += new System.EventHandler(this.createButton_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // tdGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -656,6 +688,10 @@
         private System.Windows.Forms.Button quitButton;
         private System.Windows.Forms.Button abilitiesButton;
         private System.Windows.Forms.Button towersButton;
+        private System.Windows.Forms.Button createButton;
+        private System.Windows.Forms.Button loadButton;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 
