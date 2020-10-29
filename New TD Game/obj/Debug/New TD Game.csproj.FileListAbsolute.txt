@@ -1,0 +1,10 @@
+H:\My Documents\GitHub\Personal-Projects\New TD Game\bin\Debug\New TD Game.exe.config
+H:\My Documents\GitHub\Personal-Projects\New TD Game\bin\Debug\New TD Game.exe
+H:\My Documents\GitHub\Personal-Projects\New TD Game\bin\Debug\New TD Game.pdb
+H:\My Documents\GitHub\Personal-Projects\New TD Game\obj\Debug\New TD Game.csprojAssemblyReference.cache
+H:\My Documents\GitHub\Personal-Projects\New TD Game\obj\Debug\New_TD_Game.tdGame.resources
+H:\My Documents\GitHub\Personal-Projects\New TD Game\obj\Debug\New_TD_Game.Properties.Resources.resources
+H:\My Documents\GitHub\Personal-Projects\New TD Game\obj\Debug\New TD Game.csproj.GenerateResource.cache
+H:\My Documents\GitHub\Personal-Projects\New TD Game\obj\Debug\New TD Game.csproj.CoreCompileInputs.cache
+H:\My Documents\GitHub\Personal-Projects\New TD Game\obj\Debug\New TD Game.exe
+H:\My Documents\GitHub\Personal-Projects\New TD Game\obj\Debug\New TD Game.pdb
